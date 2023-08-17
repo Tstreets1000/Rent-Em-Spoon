@@ -23,7 +23,7 @@ router.get('/:id', dataController.show, apiController.auth) // Good
 router.post('/login', dataController.login, apiController.auth) // Good
 
 // PUT - Update /api/users/:id
-router.put('/:id', dataController.update, apiController.auth) //
+router.put('/:id', dataController.update, apiController.auth) // Good
 
 // DELETE - Delete /api/users/delete
 router.delete('/:id', dataController.delete, apiController.auth) // Good

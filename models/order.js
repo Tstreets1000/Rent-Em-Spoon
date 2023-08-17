@@ -55,8 +55,8 @@ orderSchema.methods.addItemToCart = async function(itemId) {
   if (lineItem) {
     lineItem.qty += 1;
   } else {
-    const item = await mongoose.model('Item').findById(itemId);
-    cart.lineItems.push({ item });
+    const item = await model('Item').findById(itemId);
+    cart.lineItems.addToSet({ item });
   }
   return cart.save();
 };
@@ -69,7 +69,7 @@ orderSchema.methods.setItemQty = function(itemId, newQty) {
   const lineItem = cart.lineItems.find(lineItem => lineItem.item._id.equals(itemId));
   if (lineItem && newQty <= 0) {
     // Calling remove, removes itself from the cart.lineItems array
-    lineItem.remove();
+    lineItem.deleteOne();
   } else if (lineItem) {
     // Set the new qty - positive value is assured thanks to prev if
     lineItem.qty = newQty;

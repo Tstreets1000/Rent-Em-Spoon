@@ -19,7 +19,7 @@ function jsonOrders(_, res) {
 
 
 // A cart is the unpaid order for a user
-async function cart(req, res, next) {
+async function cart(req, res) {
   try{
     const cart = await Order.getCart(req.user._id);
     res.status(200).json(cart);

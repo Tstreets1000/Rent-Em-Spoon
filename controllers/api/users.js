@@ -49,7 +49,7 @@ const dataController = {
 			next();
 		} catch (e) {
 			console.log('you got a database problem');
-			res.status(400).json({ message: error.message });
+			res.status(400).json({ message: e.message });
 		}
 	},
 
@@ -89,6 +89,7 @@ const dataController = {
     try {
         const user = await User.findByIdAndUpdate(req.params.id, req.body, {new: true})
 		res.locals.data.user = user
+		next()
     } catch (error) {
         res.status(400).json({ message: error.message  })  
     }
