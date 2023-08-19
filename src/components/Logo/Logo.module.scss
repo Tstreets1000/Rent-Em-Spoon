@@ -1,26 +1,24 @@
-.Logo2 {
-height: 7vmin;
-width: 42vmin;
-display: flex;
-border-radius: 15%;
-justify-content: center;
-align-items: center;
-background-color: black;
-color: rgb(200, 255, 0);
-font-size: 4.8vmin;
-font-family: apple Chancery;
-text-align: center;
+Logo {   
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Logo2 {   
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: green;
+    font-size: 80px;
+    font-style: italic;
+    column-span: all;
 }
 
 .Logo3 {
+    text-decoration: underline;
     color: black;
-    font-family: apple Chancery;
-    text-align: left;
-}
+    align-items: center;
+    text-align: center;;
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 18px;
 
-.Soup {
-    height: 20vmin;
-    width: 20vmin;
-    box-shadow: 50px;
-    
 }

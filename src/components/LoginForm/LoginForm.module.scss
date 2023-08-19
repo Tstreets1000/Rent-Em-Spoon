@@ -1,11 +1,6 @@
 .logInBtn {
-    color: rgb(10, 10, 126);
-    background-color: whitesmoke;
-    border-color: rgb(10, 10, 126);
-    
+    display: block;
+    color: black;
+    font-size: 15px;    
 }
 
-.logInBtn :hover {
-    background-color: rgb(10, 10, 126);
-    color: whitesmoke;
-}

@@ -1,17 +1,15 @@
-import { Component } from "react"
-import NavBar from './NavBar';
-import Home from './Home';
-import About from './About';
-import Contact from './Contact';
+import styles from './NavBar.module.scss';
 
-function App() {
+
+export default function NavBar() {
   return (
     <div>
-        <button>Home</button>
-        <button>About</button>
-        <button>Contact</button>
+      <div>
+        <button className="homeBtn">Home</button>
+        <button className="aboutBtn">About</button>
+        <button className="contactBtn">Contact</button>
+      </div>
     </div>
   );
 }
 
-export default App;
