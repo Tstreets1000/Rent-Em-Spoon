@@ -57,6 +57,7 @@ export default function NewOrderPage({ user, setUser }) {
     <main className={styles.NewOrderPage}>
       <aside>
         <Logo />
+        <img src="https://kansaslivingmagazine.com/sites/default/files/styles/header/public/soup_swap_kansas_living.jpg?itok=ybItaMpz" width="550" height="300" title="multiple soups"/>
         <CategoryList
           categories={categoriesRef.current}
           cart={setCart}

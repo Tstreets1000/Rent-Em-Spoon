@@ -20,10 +20,10 @@ app.use(favicon(path.join(__dirname, 'public',"img", "logo.png")))
 app.use(express.static(path.join(__dirname, "public")))
 app.use('/api/categorys', require('./routes/api/categorys'))
 app.use('/api/items', ensureLoggedIn, require('./routes/api/items'))
-app.use('/api/orders', ensureLoggedIn,  require('./routes/api/orders'))
+app.use('/api/orders', ensureLoggedIn, require('./routes/api/orders'))
 app.use('/api/users', require('./routes/api/users'))
 
 app.get('*', (req, res) => {
-	res.sendFile(path.join(__dirname, 'public', "index.html"))})
+	res.sendFile(path.join(__dirname, 'public', 'index.html'))})
 
 module.exports = app  

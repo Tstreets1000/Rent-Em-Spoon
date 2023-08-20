@@ -184,12 +184,7 @@ function Logo() {
     className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Logo2
   }, "RENT-A-SPOON"), /*#__PURE__*/React.createElement("div", {
     className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Logo3
-  }, "Where the soup is free & you have to Rent-A-Spoon!"), /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("img", {
-    src: "https://kansaslivingmagazine.com/sites/default/files/styles/header/public/soup_swap_kansas_living.jpg?itok=ybItaMpz",
-    width: "550",
-    height: "300",
-    title: "multiple soups"
-  })));
+  }, "Where the soup is free & you have to Rent-A-Spoon!"));
 }
 
 /***/ }),
@@ -629,7 +624,13 @@ function AuthPage(_ref) {
     setUser
   } = _ref;
   const [showLogin, setShowLogin] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)(true);
-  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(_components_Logo_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/React.createElement("h3", {
+  return /*#__PURE__*/React.createElement("main", null, /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement(_components_Logo_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/React.createElement("img", {
+    src: "https://i.pinimg.com/originals/e5/1c/82/e51c8273be6751cdffc0f6f6695499e4.jpg",
+    width: "350",
+    height: "343"
+  }), /*#__PURE__*/React.createElement("img", {
+    src: "https://media.tenor.com/JmNiVPMYU3EAAAAd/walk-in-dancing.gif"
+  }), /*#__PURE__*/React.createElement("h3", {
     onClick: () => setShowLogin(!showLogin)
   }, showLogin ? 'SIGN UP' : 'LOG IN')), showLogin ? /*#__PURE__*/React.createElement(_components_LoginForm_LoginForm__WEBPACK_IMPORTED_MODULE_2__["default"], {
     setUser: setUser
@@ -750,7 +751,12 @@ function NewOrderPage(_ref) {
   }
   return /*#__PURE__*/React.createElement("main", {
     className: _NewOrderPage_module_scss__WEBPACK_IMPORTED_MODULE_3__["default"].NewOrderPage
-  }, /*#__PURE__*/React.createElement("aside", null, /*#__PURE__*/React.createElement(_components_Logo_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/React.createElement(_components_CategoryList_CategoryList__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }, /*#__PURE__*/React.createElement("aside", null, /*#__PURE__*/React.createElement(_components_Logo_Logo__WEBPACK_IMPORTED_MODULE_4__["default"], null), /*#__PURE__*/React.createElement("img", {
+    src: "https://kansaslivingmagazine.com/sites/default/files/styles/header/public/soup_swap_kansas_living.jpg?itok=ybItaMpz",
+    width: "550",
+    height: "300",
+    title: "multiple soups"
+  }), /*#__PURE__*/React.createElement(_components_CategoryList_CategoryList__WEBPACK_IMPORTED_MODULE_6__["default"], {
     categories: categoriesRef.current,
     cart: setCart,
     setActiveCat: setActiveCat
@@ -2751,4 +2757,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.080125d8f577cd02cf12acaeb15d6cd9.js.map
+//# sourceMappingURL=App.e28e56cea2f2431bd046f7a6dfedbfa8.js.map

@@ -46,5 +46,6 @@ export default function OrderHistoryPage({ user, setUser }) {
         order={activeOrder}
       />
     </main>
+    
   );
 }
