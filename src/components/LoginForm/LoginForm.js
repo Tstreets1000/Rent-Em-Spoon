@@ -30,14 +30,17 @@ async function handleSubmit(evt) {
 
 return (
   <div>
-    <h3><strong>Member Services</strong></h3>
+    <h1><strong>Member Services</strong></h1>
+    <h3>Pager: 1.888.OGPLAYA</h3>
+    <h3>Email: HIMALAYAN_PLAYA@AOL.COM</h3>
+    <h4>Address: 1992 5th Avenue, Chicago IL 50197</h4>
     <div>
       <form autoComplete="off" onSubmit={handleSubmit}>
         <label className={styles.logInBtn}>Email:</label>
         <input type="text" name="email" value={credentials.email} onChange={handleChange} required />
         <label className={styles.logInBtn}>Password:</label>
         <input type="password" name="password" value={credentials.password} onChange={handleChange} required />
-        <button type="submit">LOG IN</button>
+        <button submit>LOG IN</button>
       </form>
     </div>
     <p className="error-message">&nbsp;{error}</p>

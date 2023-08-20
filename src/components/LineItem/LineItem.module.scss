@@ -10,7 +10,7 @@
     }
     
     .LineItem:last-child {
-    border-bottom: .1vmin solid var(--tan-3);
+    border-bottom: .1vmin solid black;
     }
     
     .LineItem .qty {
@@ -23,7 +23,7 @@
     .LineItem .extPrice {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
+    align-items: left;
     font-size: 1.3vw;
     }
     

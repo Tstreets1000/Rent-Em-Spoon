@@ -18,6 +18,7 @@ return (
       :
       <span className={styles.noOrders}>No Previous Orders</span>
     }
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kQCG1tL51srf7wotSEitGr6BfOQGnZQNxg&amp;usqp=CAU"></img>
   </main>
 );
 }

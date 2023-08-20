@@ -43,7 +43,10 @@ render() {
   const disable = this.state.password !== this.state.confirm;
   return (
     <div>
-      <h3>Member Services</h3>
+      <h1>Member Services</h1>
+      <h3>pager: 1.888.OGPLAYA</h3>
+      <h3>email: HIMALAYAN_PLAYA@AOL.COM</h3>
+      <h4>Address: 1992 5th Avenue, Chicago IL 50197</h4>
       <div className="form-container">
         <form autoComplete="off" onSubmit={this.handleSubmit}>
           <label>Name:</label>
@@ -54,7 +57,7 @@ render() {
           <input type="password" name="password" value={this.state.password} onChange={this.handleChange} required />
           <label>Confirm:</label>
           <input type="password" name="confirm" value={this.state.confirm} onChange={this.handleChange} required />
-          <button className={styles.signUpBtn} type="submit" disabled={disable}>SIGN UP HERE</button>
+          <button color="red" type="submit" disabled={disable}>SIGN UP</button>
         </form>
       </div>
       <p className="error-message">&nbsp;{this.state.error}</p>
