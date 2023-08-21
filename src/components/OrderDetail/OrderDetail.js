@@ -43,7 +43,7 @@ export default function OrderDetail({ order, handleChangeQty, handleCheckout }) 
               </section>
             </>
             :
-            <div className={styles.hungry}>HUNGRY?</div>
+            <div className={styles.hungry} >Dont' forget the SPOON!</div>
           }
         </div>
       </div>

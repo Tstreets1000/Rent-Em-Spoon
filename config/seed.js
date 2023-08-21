@@ -8,7 +8,7 @@ const Item = require('../models/item').Item;
 
   await Category.deleteMany({});
   const categories = await Category.create([
-    {name: 'Dessert & Drink Spoons', sortOrder: 10}, 
+    {name: 'Dessert Spoons', sortOrder: 10}, 
     {name: 'Soup Spoons', sortOrder: 10},
     {name: 'Teaspoons', sortOrder: 10},
     {name: 'Drinks', sortOrder: 20},
@@ -20,7 +20,6 @@ const Item = require('../models/item').Item;
   await Item.deleteMany({});
   const items = await Item.create([
     {name: 'Dessert Spoon', emoji: "🥄", category: categories[0], price: 5.00}, 
-    {name: 'Drink Spoon', emoji: "🥄", category: categories[0], price: 3.00},
     {name: 'Plastic Soup Spoon', emoji: "🥄", category: categories[1], price: 7.00},
     {name: 'Regular Soup Spoon', emoji: "🥄", category: categories[1], price: 10.00},
     {name: 'Plastic Teaspoon', emoji: "🥄", category: categories[2], price: 7.00},
