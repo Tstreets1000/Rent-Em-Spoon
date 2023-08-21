@@ -341,6 +341,11 @@ function OrderList(_ref) {
     className: _OrderList_module_scss__WEBPACK_IMPORTED_MODULE_1__["default"].noOrders
   }, "No Previous Orders"), /*#__PURE__*/React.createElement("img", {
     src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kQCG1tL51srf7wotSEitGr6BfOQGnZQNxg&usqp=CAU"
+  }), /*#__PURE__*/React.createElement("img", {
+    src: "https://media.tenor.com/1gFX_afJJLcAAAAC/dancing-jerome.gif",
+    width: "218",
+    height: "188.5",
+    alt: "Dancing Jerome GIF - Dancing Jerome Martin Lawrence GIFs"
   }));
 }
 
@@ -2751,4 +2756,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.3f1fbb14fd5397fc720b56f498496a25.js.map
+//# sourceMappingURL=App.4b93907c507bbb641f3a357415dfe5b1.js.map
