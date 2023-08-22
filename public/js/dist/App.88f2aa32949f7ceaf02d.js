@@ -190,7 +190,7 @@ function Logo() {
     height: "200"
   }), /*#__PURE__*/React.createElement("div", {
     className: _Logo_module_scss__WEBPACK_IMPORTED_MODULE_0__["default"].Logo2
-  }, "Where the soup is free & we Rent 'Em Spoons!"));
+  }, "Where the soup is free & we Rent 'Em Spoons!!"));
 }
 
 /***/ }),
@@ -2760,4 +2760,4 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=App.32fc0151f787fd9bd719eaca6b93452e.js.map
+//# sourceMappingURL=App.c9cec4d5afda06e63c98a3f899ffe095.js.map
